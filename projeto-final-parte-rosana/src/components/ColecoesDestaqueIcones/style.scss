@@ -1,0 +1,41 @@
+@import '../../App.scss';
+
+.bg {
+    background-color: #F9F8FE;
+    }
+    
+    
+  .iconeslinks a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #474747;
+
+    padding-top: 1.15rem;
+}
+
+.h3dest{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #474747;
+
+    margin-bottom: 1.25rem;
+    padding-top: 1.25rem;
+}
+
+.iconeslinks a:hover {
+    color: #C92071;
+    // text-decoration: underline;
+}
+
+
+.container-collection {
+    background-color: $grey;
+    height: 15.6rem;
+}

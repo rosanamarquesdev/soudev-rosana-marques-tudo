@@ -1,0 +1,65 @@
+@import '../../App.scss';
+
+.section6 {
+    .sectionsix {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 75vh;
+        background-color: $white;
+    }
+    .sectionsix > .colunatwo {
+        margin-left: 70px;
+        width: 90vh;
+    }
+    .colunatwo > h5 {
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 0.9rem;
+        color: $pink;
+        margin-bottom: 1vh;
+    }
+    .colunatwo > h2 {
+        line-height: 50px;
+        font-size: 3rem;
+        color: $darkgrey;
+        margin-top: 20px;
+        margin-bottom: 2vh;
+    }
+    .colunatwo > .paragrafo {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 28px;
+        color: $darkgrey;
+        margin-bottom: 28px;
+        width: 70vh;
+    }
+    a > .buttonsee {
+        font-weight: 500;
+        background-color: $pink;
+        color: $grey;
+        width: 185px;
+        height: 6vh;
+        font-size: 0.8rem;
+        border: none;
+        border-radius: 6px;
+    }
+    a > .buttonsee:hover {
+        background-color: $white;
+        border: 1px solid $pink;
+        color: $pink;
+    }
+    .colunaone .bg-img {
+        position: absolute;
+        left: 24vh;
+        width: 66vh;
+        height: 70vh;
+        background-image: linear-gradient(180deg, rgba(66, 0, 255, 0.25) -40.67%, rgba(255, 255, 255, 0) 60%);
+        border-radius: 50%;
+    }
+    .colunaone img {
+        position: relative;
+        width: 80vh;
+    }
+}

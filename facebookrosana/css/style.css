@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* width: 923px; */
+    width: 100vw;
+
+    /* PERGUNTAR AO GLEIDSON QNDO OUSAR  */
+
+    /* height: 496px; */
+    height: 100vh; /* mudei para esse e deu certo. Com heigth: 496px; NAO DEU CERTO para alinhar no centro */
+}
+
+.lados {
+    /* width: 923px;
+    height: 496px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lado-esquerdo > img {
+    width: 250px;
+    height: 106px;
+}
+
+.lado-esquerdo > p {
+    width: 368px;
+    height: 112px;
+    font-size: 24px;
+}
+
+/* lado direito */
+.lado-direito {
+    /* background-color: brown; */
+    width: 396px;
+    height: 314px;
+    padding: 20px;
+}
+
+/* so teste - tirar depois */
+.formulario {
+    background-color: rosybrown;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input {
+    padding: 14px 16px;
+    margin: 6px 0;
+    border-radius: 6px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: blueviolet; */
+    margin-top: 16px;
+}
+
+.rodape a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.rodape hr {
+    width: 100%; /* faz assim para aumentar o tamanho do hr */
+}
+
+.itens-rodape {
+    margin-top: 10px;
+}
+
+.rodape button {
+    border-radius: 6px;
+    padding: 14px 16px;
+    /* background-color: green; */
+}
+

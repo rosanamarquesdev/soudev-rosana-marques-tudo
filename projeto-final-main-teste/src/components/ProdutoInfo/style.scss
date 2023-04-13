@@ -1,0 +1,103 @@
+@import '../../App.scss';
+
+#produtos {
+    background-color: $grey;
+    .rotas h5 {
+        font-weight: 500;
+        padding-top: 5vh;
+        padding-bottom: 8vh;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .ref {
+        font-weight: 500;
+        color: $grey-2;
+        font-size: 0.75rem;
+        margin-bottom: 10px;
+    }
+    .reviews {
+        margin-bottom: 10px;
+        font-size: 0.8rem;
+    }
+    .reviews svg {
+        color: $yellow;
+    }
+    .price {
+        font-weight: 700;
+        display: flex;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .buy, .buy:hover {
+        background-color: $yellow;
+    }
+    small{
+        color: $grey-3;
+    }
+    .descricao p{
+        font-weight: 700;
+        font-size: 0.8rem;
+        color: $grey-3;
+        margin-bottom: 10px;
+    }
+    .pdescricao {
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: #474747;
+        font-size: 0.8rem;
+        width: 62vh;
+    }
+    .tamanho p{
+        font-weight: 700;
+        color: $grey-3;
+        margin-bottom: 5px;
+    }
+    .cores p {
+        font-weight: 700;
+        color: $grey-3;
+        margin-bottom: 10px;
+    }
+    .setaleft, .setaright{
+        margin-top: 100px;
+        font-size: 7vh;
+    }
+    .ladoleft {
+        justify-content: space-between;
+        align-items: center;
+        height: 70vh;
+        background-color: #E2E3FF;
+        box-shadow: none;
+    }
+    .ladoleft .imagem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } 
+    .ladoleft img{
+        margin-top: 20vh;
+    }
+    .settamanho {
+        color: #000;
+        background-color: #fff;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .settamanho:focus {
+        background-color: $pink;
+        color: #fff;
+    }
+}
+.imagemmenor{
+    height: 13vh;
+    margin-top: 3vh;
+}
+.imagemmenor img {
+    margin-top: 2.5vh;
+    margin-left: 2.5vh
+}
+.imagemmenor:nth-child(1){
+    background-color: #E2E3FF;
+}

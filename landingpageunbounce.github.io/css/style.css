@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    background-color: #004A72;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+#logo img {
+    width: 100px;
+}
+
+#logo p {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    padding-left: 12px;
+}
+
+.menu button {
+    margin-right: 20px;
+    text-transform: uppercase;
+    background-color: #FFA500;
+    border: 1px solid #ccc5c5;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 5px;
+    transition: all 0.5s ease-out;
+}
+
+.menu button:hover {
+    background-color: #004A72;
+    transition: all 0.5s ease-out;
+}
+
+.sides {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-image: url(../img/fundo-azul.jpg);
+    background-size: cover;
+}
+
+.side-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 430px;
+    height: 400px;
+}
+
+.side-1 h2 {
+    color: #004A72;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.side-1 p {
+    color: #0B084F;
+    text-align: start;
+    font-size: 13px;
+}
+
+.side-2 img {
+    width: 300px;
+    height: 400px;
+}
+
+.conversion-box {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: #0077CA;
+    height: 200px;
+    margin-bottom: 32px;
+}
+
+.conversion-box h3 {
+    font-size: 23px;
+    color: #FFFFFF;
+    font-weight: lighter; 
+}
+
+.conversion-box button {
+      width: 240px;
+      height: 50px;
+      background-color: #FFFFFF;
+      color: #0077CA;
+      border: none;
+      text-transform: uppercase;
+      font-size: 15px;
+      margin-top: 20px;
+      transition: all 0.5s ease-out;
+}  
+
+.conversion-box button:hover {
+    background-color: #004A72;
+    color: #FFFFFF;
+    transition: all 0.5s ease-out;
+}
+
+.conversion-box p {
+    font-size: 10px; 
+    color: white;
+    margin-top: 8px;
+}
+
+.container-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-btn h3, p {
+    text-align: center;
+    color: #004A72;
+    margin-top: 10px;
+}
+
+.container-btn p {
+    font-size: 13px;
+}
+
+.btn-link {
+    width: 684px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.btn-link button {
+    border: 1px solid #0077CA;
+    background-color: #FFFFFF;
+    color: #0077CA;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 130px;
+    height: 70px;
+    transition: all 0.5s ease-out;
+}
+
+.btn-link button:hover {
+    background-color: #004A72;
+    color: #FFFFFF;
+    transition: all 0.5s ease-out;
+}
+
+.btn-link-order button {
+    border: 1px solid #0077CA;
+    background-color: #FFFFFF;
+    color: #0077CA;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-bottom: 46px;
+    transition: all 0.5s ease-out;
+}
+
+.btn-link-order button:hover {
+    background-color: #004A72;
+    color: #FFFFFF;
+    transition: all 0.5s ease-out;
+}
+
+.container-doubts {
+    display: flex;
+    justify-content: center;
+    background-color:#0077CA;
+}
+
+.sec-blue {
+    display: flex;
+    width: 730px;
+    height: 370px;
+}
+
+.left {
+    padding-top: 64px;
+    padding-right: 20px;
+    border-right: 1px solid #FFFFFF;
+}
+
+.left a {
+    text-decoration: none;
+}
+
+.left p {
+    text-align: start;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.left a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.right {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.right h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 52px;
+    color: #FFFFFF;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.right a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.right a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #004A72;
+    min-height: 100px;
+}
+.img-footer img {
+    width: 130px;
+}
+
+.footer p {
+    color: #FFFFFF;
+    font-size: 8px;
+}
+

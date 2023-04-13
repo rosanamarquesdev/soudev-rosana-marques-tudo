@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: #0B084F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lados {
+    display: flex;
+    justify-content: center;
+    gap: 70px; /* espacamento entre as divs */
+}
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+}
+
+.lado-esquerdo h2 {
+    font-size: 36px;
+}
+
+.lado-direito img {
+    width: 300px;
+    height: 300px;
+}
+
+/* secao azul */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.start-box {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(18, 18, 193);
+    height: 150px;
+    gap: 20px;
+}
+
+.start-box h3, p {
+    color: rgb(249, 246, 27);
+}
+
+.start-box p {
+    font-size: 10px; 
+}
+
+.start-box button {
+      width: 180px;
+      height: 40px;
+      color: blue;
+      border: none;
+      text-transform: uppercase;
+      font-size: 12px;
+}
+
+.start-box a {
+    color: white;
+}
+
+.sec-blue {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: blue;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.left {
+    margin-left: 330px;
+}
+

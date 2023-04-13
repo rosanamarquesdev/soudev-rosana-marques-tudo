@@ -1,0 +1,38 @@
+// .product-details .title {
+//     font-weight: bold;
+//     font-size: 2rem; 
+// }
+
+// .product-details .reviews svg {
+//     color: pink;
+// }
+
+$color-yellow: #F6AA1C;
+$color-gray: #666666;
+$color-pink: pink;
+
+// scss permite uma nova forma de sintaxe
+.product-details {
+
+    .title {
+        font-weight: bold;
+        font-size: 2rem;
+    } 
+    .ref {
+        color: $color-gray;
+        font-size: 0.75rem;
+    }
+
+    .reviews svg {
+        color: $color-yellow;
+    }
+
+    .buy {
+        background-color: $color-gray;
+    }
+
+    .buy:hover {
+        background-color: $color-pink;
+    }
+}
+

@@ -1,0 +1,190 @@
+@import '../../App.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-banner {
+    /* adicionei para da certo a margem padrao */
+    // background-color: $grey-background; /* cor certa */
+    background-color: $grey-banner;
+    // border: black;
+    // box-shadow: 5px -9px 3px #000;
+
+    .banner {
+        /* ajuda a visualizar o limite das margens laterais para seguir o padrao*/
+        /* border: 1px solid green; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        // height: 450px;
+        height: 550px;
+
+        .left {
+            width: 500px;
+            height: 290px;
+            display: flex;
+            flex-direction: column;
+        
+            .best {
+            // border: 1px solid black;
+            font-size: 1rem;
+            font-weight: 700;
+            color: $yellow;
+            }
+        
+            .title-banner {
+                font-size: 3.6rem;
+                font-weight: 900;
+                width: 28rem;
+                }
+        
+            .text-banner {
+                width: 30rem;
+            
+                font-size: 1.1rem;
+                font-weight: 400;
+            
+                letter-spacing: 0.045rem;
+                
+                margin-top: 0.62rem;
+            }
+        
+            .offers-btn {
+                background-color: $pink;
+                color: $white;
+            
+                width: 13.12rem;
+                height: 2.81rem;
+                text-align: center;
+                padding: 0.62rem;
+                border: none;
+                border-radius: 0.5rem;
+            
+                margin-top: 1.25rem;
+            
+                font-size: 0.88rem;
+                font-weight: 600;
+                letter-spacing: 0.045rem;
+            }
+        }
+    }
+
+    /* lado direito */
+    .slider {
+        width: 600px;
+        height: 450px;
+        overflow: hidden; /* some os outros slides e deixa a imagem do tamanho que eu ja defini aqui dentro*/
+
+        .slides {
+            width: 400%;
+            // width: 600%; -- nao mecheu na largura
+            height: 400px; /* mesma altura do slider */
+            display: flex;
+
+            input {
+                display: none; /* some os imputs apenas da tela */
+            }
+
+            .slide {
+                width: 25%;
+                // width: 50%;
+                position: relative;
+            }
+            
+            .slide img {
+                // width: 400px;
+                width: 520px;
+                // height: 400px; /* ajeita o tamanho das imagens */
+                height: 400px;
+            }
+
+            /* navigation-auto */
+            .navigation-auto {
+                position: absolute;
+                width: 400px;
+                // margin-top: 360px;
+                margin-top: 425px;
+                display: flex;
+                justify-content: start;
+
+                div {
+                margin-top: 25px; /* coloquei p descer a bolinha */
+                border: 1px solid #CCCCCC;
+                padding: 5px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: 0.8s;
+                }
+
+                div:not(:last-child) {
+                    margin-right: 6px;
+                }
+            }
+        }
+
+        /* botoes de navegacao */
+        .manual-navigation {
+            position: absolute;
+            width: 400px; /* original era 800px */
+            // margin-top: -15px; /* original é -40px */
+            margin-top: 50px;
+            display: flex;
+            justify-content: start;
+
+            .manual-btn {
+                border: 1px solid #CCCCCC;
+                background-color: #cccccc4d;
+                padding: 5px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: 0.8s;
+            }
+            
+            .manual-btn:not(:last-child){
+                margin-right: 6px;
+            }
+            
+            .manual-btn:hover{
+                background-color:  $pink;
+            }
+
+
+            #radio1:checked ~ .first{
+                margin-left: 0;
+            }
+            
+            #radio2:checked ~ .first{
+                margin-left: -25%;
+            }
+            
+            #radio3:checked ~ .first{
+                margin-left: -50%;
+            }
+            
+            #radio4:checked ~ .first{
+                margin-left: -75%;
+            }
+        }
+
+    }
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: $pink;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: $pink;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color:  $pink;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color:  $pink;
+}

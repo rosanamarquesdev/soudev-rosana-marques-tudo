@@ -1,0 +1,68 @@
+/* function produto */
+@import '../../App.scss';
+
+#ProdutosEmAlta{
+    // background-color: #edf2f4;
+    background-color: $grey;
+}
+
+.Produto .chip{
+    background-color: #E7FF86;
+    margin: 20px;
+    position: absolute;
+}
+
+.Produto small, .duzentos {
+    color: #8F8F8F;
+}
+
+.Produto .duzentos{
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.Produto .cem{
+    color: #1F1F1F;
+}
+
+.Produto .cem, .duzentos{
+    padding: 0;
+    margin-top: -20px;
+    font-size: 1.5rem; 
+}
+
+.Produto .descriçao{
+    color: #474747;
+    padding: 0px;
+    padding-top: 2px;
+    margin: 0;
+    font-size: 1.5rem;
+    letter-spacing: 0.75px;
+}
+
+.Produto .valor{
+    display: flex;
+}
+.Produto .card{
+    height: 321px;
+    position: relative;
+}
+
+.Produto .card .imagem{
+    margin-left: -25px;
+    margin-top: 25px;
+}
+
+/* Function produtosemalta */
+#ProdutosEmAlta .titulos{
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all {
+    color: #C92071;
+    font-size: 20px;
+    text-decoration: none;
+    
+}

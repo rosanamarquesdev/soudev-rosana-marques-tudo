@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+}
+
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpRsoIoAyFAhRMjcl9cXNQokDPx0GGP3IqdA&usqp=CAU");
+    background-image: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.pokedex {
+    width: 500px;
+    position: relative;
+}
+
+.pokedex img {
+    width: 100%;
+}
+
+/* pokemon */
+.pokemon {
+    width: 192px; /* era 196 */
+    height: 150px;
+    background-color: white;
+    border-radius: 11px;
+    position: absolute;
+    top: 50%
+    left: 50%;
+    transform: translate(108%, -330%);
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon img {
+    height: 100%;
+}
+
+select {
+    width: 300px;
+    height: 46px;
+    font-size: 22px;
+    padding-left: 10px;
+    border: 3px solid black;
+}

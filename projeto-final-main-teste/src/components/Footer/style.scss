@@ -1,0 +1,78 @@
+@import '../../App.scss';
+footer {
+    display:flex;
+    justify-content: space-between;
+    background-color: $bitblack;
+    color: $white;
+    .sectionup {
+        display: flex;
+        align-items: center;
+        height: 53vh;
+        background-color: $bitblack;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-left: 3px;
+    }
+    .logo img {
+        width: 30px;
+    }
+    .about {
+        width: 470px;
+        margin-top: 59px;
+    }
+    .column {
+        width: 220px;
+        height: 225px;
+    }
+    .category {
+        width: 240px;
+    }
+    .logonome > h3 {
+        margin-left: 7px;
+        margin-bottom: 2px;
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    .column > h4 {
+        font-weight: 500;
+        font-size: 1rem;
+        margin-bottom: 27px;
+    }
+    .column > a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 300;
+        font-size: 0.9rem;
+        line-height: 34px;
+    }
+    .about > .paraabout {
+        font-weight: 300;
+        font-size: 0.9rem;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        line-height: 24px;
+        width: 307px;
+    }
+    .column > .paragrafo {
+        font-weight: 300;
+        font-size: 0.9rem;
+        line-height: 24px;
+    }
+    a > .icon {
+        margin-right: 30px;
+        padding-bottom: 70px;
+    }
+    .creditos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        border-top: 1px solid $bitgrey;
+    }
+    .creditos .patente {
+        font-weight: 200;
+        font-size: 0.7rem;
+    }
+}

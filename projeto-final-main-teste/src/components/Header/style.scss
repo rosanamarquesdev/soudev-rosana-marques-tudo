@@ -1,0 +1,62 @@
+@import '../../App.scss';
+
+#head {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .navbar .logopink {
+        display: flex;
+    }
+    .navbar .logopink h1 {
+        font-weight: 600;
+        font-size: 2.2rem;
+        padding-left: 8px;
+        color: $pink;
+    }
+    .navbar .cadastro a {
+        font-weight: 400;
+        font-size: 1rem;
+        margin-right: 2vh;
+        color: $darkgrey;
+        margin-left: 5vh;
+    }
+    .navbar a button{
+        font-weight: 400;
+        background-color: $pink;
+        color: $grey;
+        width: 17vh;
+        height: 6vh;
+        font-size: 1rem;
+        border: none;
+        border-radius: 6px;
+    }
+    .menu {
+        margin-bottom: 4vh;
+    }
+    .menu a {
+        color: $darkgrey;
+        text-decoration: none;
+        margin-right: 24px;
+    }
+    .menu a:hover {
+        color: $pink;
+        padding-bottom: 5px;
+        border-bottom: 2px solid $pink;
+    }
+    .menu a.active{
+        color: $pink;
+        font-weight: 700;
+        padding-bottom: 5px;
+        border-bottom: 2px solid $pink;
+    }
+    .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+        height: 2vh;
+        background-color: $grey;
+        padding: 20px !important;
+    }
+
+}

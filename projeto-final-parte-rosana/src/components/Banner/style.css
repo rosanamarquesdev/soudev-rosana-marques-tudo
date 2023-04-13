@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-banner {
+    /* adicionei para da certo a margem padrao */
+    background-color: #F5F5F5; /* cor certa */
+}
+
+.banner {
+    /* ajuda a visualizar o limite das margens laterais para seguir o padrao*/
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 450px;
+}
+
+.left {
+    /* border: 1px solid green; */
+    width: 500px;
+    height: 290px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.left .best {
+    font-size: 18px;
+    color: #F6AA1C; 
+}
+
+.left .title-banner {
+    font-size: 50px;
+    width: 350px;
+    /* border: 1px solid #CCCCCC; */
+
+}
+
+.left .text-banner {
+    /* border: 1px solid red; */
+    width: 450px;
+    font-size: 15px;
+    
+    margin-top: 10px;
+}
+
+.left .ofertas-btn {
+    background-color: #C92071;
+    color:#FFFFFF;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+
+    margin-top: 20px;
+}
+
+/* lado direito */
+.slider {
+    /* border: 1px solid #F6AA1C; */
+
+    width: 400px;
+    height: 400px; /* era 400 no original */
+    overflow: hidden; /* some os outros slides e deixa a imagem do tamanho que eu ja defini aqui dentro*/
+}
+
+.slides {
+    width: 400%;
+    height: 400px; /* mesma altura do slider */
+    display: flex;
+}
+
+.slides input {
+    display: none; /* some os imputs apenas da tela */
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    width: 400px;
+    height: 400px; /* ajeita o tamanho das imagens */
+}
+
+/* botoes de navegacao */
+.manual-navigation {
+    position: absolute;
+    width: 400px; /* original era 800px */
+    margin-top: -15px; /* original é -40px */
+    display: flex;
+    justify-content: start;
+
+    /* background-color: #F6AA1C; */
+}
+
+.manual-btn {
+    border: 1px solid #CCCCCC;
+    background-color: #cccccc4d;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 6px;
+}
+
+.manual-btn:hover{
+    background-color: #C92071;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+/* navigation-auto */
+.navigation-auto div {
+    margin-top: 25px; /* coloquei p descer a bolinha */
+
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 400px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: start;
+} 
+
+.navigation-auto div:not(:last-child){
+    margin-right: 6px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #C92071;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #C92071;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #C92071;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: #C92071;
+}

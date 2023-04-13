@@ -1,0 +1,83 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "calcas",
+      "descricao": "Calcas em geral"
+    },
+    {
+      "id": 2,
+      "titulo": "Miçangas",
+      "descricao": "Pulseiras e cordoes em geral"
+    },
+    {
+      "titulo": "Bonés",
+      "descricao": "Bonés em Geral",
+      "id": 4
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "categoria_id": 2,
+      "tamanho": "41",
+      "codigo": "10982-4",
+      "cor": "Preta",
+      "marca": "ArteSurf",
+      "descricao": "",
+      "valor": 59.9,
+      "titulo": "Bota Cano Alto",
+      "quantidade": 10,
+      "imagens": [
+        "imagem01.jpg",
+        "imagem02.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "categoria_id": 2,
+      "tamanho": "M",
+      "codigo": "10982-9",
+      "cor": "Vermelha",
+      "marca": "TheRua",
+      "descricao": "",
+      "valor": 39.9,
+      "titulo": "Pulseira de couro",
+      "quantidade": 5,
+      "imagens": [
+        "imagem0101.jpg",
+        "imagem0202.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "categoria_id": 2,
+      "tamanho": "G",
+      "codigo": "10920-4",
+      "cor": "Rosa",
+      "marca": "ArteSurf",
+      "descricao": "",
+      "valor": 29.9,
+      "titulo": "Bota Cano Alto",
+      "quantidade": 10,
+      "imagens": [
+        "imagem010101.jpg",
+        "imagem020202.jpg"
+      ]
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Rosana",
+      "cpf": "08945637422",
+      "idade": 20
+    },
+    {
+      "id": 2,
+      "nome": "Rebeca",
+      "cpf": "08945347422",
+      "idade": 25
+    }
+  ]
+}

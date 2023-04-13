@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chat {
+    width: 300px;
+}
+
+.chat .conversas div {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #6767FF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chat .btn {
+    width: 100%;
+    margin-top: 6px;
+}

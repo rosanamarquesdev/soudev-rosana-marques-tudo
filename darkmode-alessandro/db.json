@@ -1,0 +1,12 @@
+
+{
+    "alunos": [
+        {
+            "nome": "Rebeca Costa",
+            "email": "rosanadeveloper@gmail.com",
+            "telefone": "85988889999",
+            "cidade": "Fortaleza"
+        }
+    ]
+}
+
